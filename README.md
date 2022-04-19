@@ -1,1 +1,1 @@
-# ReCANet
+# ReCANet implementation
