@@ -6,11 +6,10 @@ Reads the raw files, renames columns, last basket as test and the rest as train.
 No additional preprocessing steps.
 '''
 
-input_file_path = '/Users/mozhdeh/Data/transactions/' \
-                  'dunnhumby_The-Complete-Journey/dunnhumby - The Complete Journey CSV/transaction_data.csv'
-train_baskets_file_path = '/Users/mozhdeh/PycharmProjects/MozhdehNBR/data/dunnhumby_cj/train_baskets.csv'
-test_baskets_file_path = '/Users/mozhdeh/PycharmProjects/MozhdehNBR/data/dunnhumby_cj/test_baskets.csv'
-valid_baskets_file_path = '/Users/mozhdeh/PycharmProjects/MozhdehNBR/data/dunnhumby_cj/valid_baskets.csv'
+input_file_path = 'dunnhumby_The-Complete-Journey/dunnhumby - The Complete Journey CSV/transaction_data.csv'
+train_baskets_file_path = 'data/dunnhumby_cj/train_baskets.csv'
+test_baskets_file_path = 'data/dunnhumby_cj/test_baskets.csv'
+valid_baskets_file_path = 'data/dunnhumby_cj/valid_baskets.csv'
 
 df = pd.read_csv(input_file_path)
 print(df.shape)
