@@ -6,10 +6,10 @@ Reads the raw files, renames columns, last basket as test and the rest as train.
 No additional preprocessing steps.
 '''
 
-input_file_path = '/Users/mozhdeh/Data/transactions/kaggle-acquire/transactions_sample.csv'
-train_baskets_file_path = '/Users/mozhdeh/PycharmProjects/MozhdehNBR/data/valued_shopper_sample/train_baskets.csv'
-test_baskets_file_path = '/Users/mozhdeh/PycharmProjects/MozhdehNBR/data/valued_shopper_sample/test_baskets.csv'
-valid_baskets_file_path = '/Users/mozhdeh/PycharmProjects/MozhdehNBR/data/valued_shopper_sample/valid_baskets.csv'
+input_file_path = 'transactions/kaggle-acquire/transactions_sample.csv'
+train_baskets_file_path = 'data/valued_shopper_sample/train_baskets.csv'
+test_baskets_file_path = 'data/valued_shopper_sample/test_baskets.csv'
+valid_baskets_file_path = 'data/valued_shopper_sample/valid_baskets.csv'
 
 df = pd.read_csv(input_file_path)
 print(df.shape)
