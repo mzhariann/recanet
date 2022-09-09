@@ -7,12 +7,12 @@ No additional preprocessing steps.
 '''
 
 
-prior_orders_file_path = '/Users/mozhdeh/Data/instacart_2017_05_01/order_products__prior.csv'
-train_orders_file_path = '/Users/mozhdeh/Data/instacart_2017_05_01/order_products__train.csv'
-orders_file_path = '/Users/mozhdeh/Data/instacart_2017_05_01/orders.csv'
-train_baskets_file_path = '/Users/mozhdeh/PycharmProjects/MozhdehNBR/data/instacart/train_baskets.csv'
-test_baskets_file_path = '/Users/mozhdeh/PycharmProjects/MozhdehNBR/data/instacart/test_baskets.csv'
-valid_baskets_file_path = '/Users/mozhdeh/PycharmProjects/MozhdehNBR/data/instacart/valid_baskets.csv'
+prior_orders_file_path = 'instacart_2017_05_01/order_products__prior.csv'
+train_orders_file_path = 'instacart_2017_05_01/order_products__train.csv'
+orders_file_path = 'instacart_2017_05_01/orders.csv'
+train_baskets_file_path = 'data/instacart/train_baskets.csv'
+test_baskets_file_path = 'data/instacart/test_baskets.csv'
+valid_baskets_file_path = 'data/instacart/valid_baskets.csv'
 
 prior_orders = pd.read_csv(prior_orders_file_path)
 train_orders = pd.read_csv(train_orders_file_path)
